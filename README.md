@@ -10,12 +10,19 @@ Object Detection is a prominent Computer-Vision problem that comes with its own 
 ## Overview and Key parameters
 
 •	Model Name : You only look once (YOLO v3) 
+
 •	Dataset : Subset of Open Images with cars and person images.
+
 •	Annotation provided : COCO JSON
+
 •	Annotation used : YOLO darknet format
+
 •	Training set : 300 image
+
 •	Images resolution : 416x416
+
 •	Programming language : Python
+
 •	Main Packages used :  Tensorflow, Numpy
 
 
