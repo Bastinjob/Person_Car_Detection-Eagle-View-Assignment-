@@ -3,10 +3,12 @@ The goal of this task is to train a model that can localize and classify each in
 
 
 Introduction
+
 Object Detection is a prominent Computer-Vision problem that comes with its own unique facets and difficulty. In this mini-project, an attempt is made to incorporate the popular YOLO v3 object detection model to localize and classify person and cars in a real world image.
 
 
 Overview and Key parameters
+
 •	Model Name : You only look once (YOLO v3) 
 •	Dataset : Subset of Open Images with cars and person images.
 •	Annotation provided : COCO JSON
@@ -18,6 +20,7 @@ Overview and Key parameters
 
 
 Model Description
+
 Prior work on object detection repurposes classifiers to perform detection.  Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images  in  one  evaluation.   Since the whole  detection pipeline is a single network, it can be optimized end-to-end directly on detection performance.
 
 
@@ -29,11 +32,14 @@ Prior work on object detection repurposes classifiers to perform detection.  Ins
                
                
 Characteristics :
+
 •	Fastest Object detection algorithm
 •	30FPS minimum image processing rate
 •	MAP ~ 55-60% on COCO test dev
 
+
 False Positives
+
 1.	Statues vs Silhouettes :
 Images that contain statues of a person figure are practically indistinguishable from an actual person ,from a computer’s point of view. Even if we are able train the model to differentiate a statue and an actual person, still a dark silhouette of a person and a bronze statue will look exactly the same. This case extends to sign boards with person figures too.
 2.	Large two wheelers and small trucks:
@@ -44,6 +50,7 @@ This is a classic false positive case. Many images have images inside itself. Pi
 
 
 Conclusion 
+
 The following conclusions were inferred.
 1.	YOLO algorithm works very well in the task of Object detection. 
 2.	Relatively simpler two category problem makes the result even more accurate.
