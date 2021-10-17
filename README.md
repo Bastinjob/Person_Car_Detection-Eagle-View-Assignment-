@@ -22,8 +22,8 @@ Prior work on object detection repurposes classifiers to perform detection.  Ins
 
 
 
+![image](https://user-images.githubusercontent.com/60094794/137641271-6e85a2c7-f936-4d7b-afda-c8d0a2edfd65.png)
 
-               ![image](https://user-images.githubusercontent.com/60094794/137641233-55be09ea-e898-46e4-a954-3623b577a3e0.png)
 
                
                
