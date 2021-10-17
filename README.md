@@ -2,12 +2,12 @@
 The goal of this task is to train a model that can localize and classify each instance of person and car as accurately as possible.
 
 
-Introduction
+## Introduction
 
 Object Detection is a prominent Computer-Vision problem that comes with its own unique facets and difficulty. In this mini-project, an attempt is made to incorporate the popular YOLO v3 object detection model to localize and classify person and cars in a real world image.
 
 
-Overview and Key parameters
+## Overview and Key parameters
 
 •	Model Name : You only look once (YOLO v3) 
 •	Dataset : Subset of Open Images with cars and person images.
@@ -19,7 +19,7 @@ Overview and Key parameters
 •	Main Packages used :  Tensorflow, Numpy
 
 
-Model Description
+## Model Description
 
 Prior work on object detection repurposes classifiers to perform detection.  Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images  in  one  evaluation.   Since the whole  detection pipeline is a single network, it can be optimized end-to-end directly on detection performance.
 
@@ -36,9 +36,9 @@ Characteristics :
 •	Fastest Object detection algorithm
 •	30FPS minimum image processing rate
 •	MAP ~ 55-60% on COCO test dev
+###For traning , a folder has to be created with the name train , wherein, the training images with the annotataions should be placed. 
 
-
-False Positives
+## False Positives
 
 1.	Statues vs Silhouettes :
 Images that contain statues of a person figure are practically indistinguishable from an actual person ,from a computer’s point of view. Even if we are able train the model to differentiate a statue and an actual person, still a dark silhouette of a person and a bronze statue will look exactly the same. This case extends to sign boards with person figures too.
@@ -49,7 +49,7 @@ This is a classic false positive case. Many images have images inside itself. Pi
 
 
 
-Conclusion 
+## Conclusion 
 
 The following conclusions were inferred.
 1.	YOLO algorithm works very well in the task of Object detection. 
