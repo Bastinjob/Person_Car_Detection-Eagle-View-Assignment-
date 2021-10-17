@@ -34,8 +34,12 @@ Prior work on object detection repurposes classifiers to perform detection.  Ins
 Characteristics :
 
 •	Fastest Object detection algorithm
+
 •	30FPS minimum image processing rate
+
 •	MAP ~ 55-60% on COCO test dev
+
+
 ###For traning , a folder has to be created with the name train , wherein, the training images with the annotataions should be placed. 
 
 ## False Positives
