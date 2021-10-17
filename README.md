@@ -19,8 +19,15 @@ Overview and Key parameters
 
 Model Description
 Prior work on object detection repurposes classifiers to perform detection.  Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images  in  one  evaluation.   Since the whole  detection pipeline is a single network, it can be optimized end-to-end directly on detection performance.
-               ![image](https://user-images.githubusercontent.com/60094794/137641193-d2ebcbe8-17c0-418c-a2af-75ce19640dcc.png)
 
+
+
+
+               ![image](https://user-images.githubusercontent.com/60094794/137641193-d2ebcbe8-17c0-418c-a2af-75ce19640dcc.png)
+               
+               
+               
+               
 Characteristics :
 •	Fastest Object detection algorithm
 •	30FPS minimum image processing rate
